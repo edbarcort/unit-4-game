@@ -11,20 +11,19 @@ body {
 /*header section*/
 
 header {
-    font-family: 'Piedra';
-    color: rgb(33, 173, 216);
+    font-family: 'Amatic SC', cursive;
+    color: rgb(252, 253, 253);
     padding: 20px 5px;
     margin: 10px;
     width: 650px;
     text-align: center;
-    background-color: blueviolet;
 }
 
 
 /*title*/
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -32,12 +31,12 @@ h1 {
 /*Game directions  */
 
 .game-info {
-    font-family: 'Piedra';
-    font-weight: bold;
-    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+    ;
+    font-weight: normal;
+    font-size: 25px;
     height: 70px;
-    background-color: blueviolet;
-    color: rgb(33, 173, 216);
+    color: rgb(252, 253, 253);
     padding: 20px 10px 10px 10px;
     height: 250px;
     width: 640px;
@@ -50,7 +49,7 @@ h1 {
 /* Total number box */
 
 .goalBox {
-    background-color: blueviolet;
+    background-color: white;
     text-align: center;
     color: rgb(33, 173, 216);
     font-size: 2em;
@@ -58,14 +57,14 @@ h1 {
     height: 80px;
     padding: 5px;
     margin-left: 10px;
-    float: left;
+    float: right;
 }
 
 
 /* Wins & loss boxes */
 
 .winBox {
-    background-color: blueviolet;
+    background-color: white;
     color: rgb(33, 173, 216);
     width: 200px;
     height: 80px;
@@ -73,6 +72,7 @@ h1 {
     line-height: 1.5em;
     margin-left: 180px;
     margin-bottom: 10px;
+    float: right;
 }
 
 
@@ -82,7 +82,7 @@ h1 {
     clear: both;
     position: relative;
     margin: 0 auto;
-    float: left;
+    float: right;
 }
 
 
@@ -92,16 +92,18 @@ h1 {
     width: 148px;
     height: 80px;
     margin: 10px;
+    float: right;
 }
 
 
 /* Crystal value accumulator box */
 
+.scoreBox,
 .totalLit,
 .tallyBox {
-    background-color: blueviolet;
-    color: rgb(33, 173, 216);
+    color: white;
     width: 200px;
+    float: left;
 }
 
 .totalLit {
@@ -109,6 +111,7 @@ h1 {
     height: 20px;
     text-align: left;
     margin: 120px 0 0 10px;
+    float: left;
 }
 
 
@@ -118,4 +121,5 @@ h1 {
     font-size: 2em;
     padding: 10px 10px 50px 10px;
     margin: 10px 0 10px 10px;
+    float: left;
 }

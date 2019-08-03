@@ -7,7 +7,8 @@
     <title>Crystal Collector Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Piedra' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -37,24 +38,26 @@
             <p>Wins: <span id="gamesWon"></span></p>
             <p>Losses: <span id="gamesLost"></span></p>
         </div>
-        <!-- Crystal boxes -->
-        <div class="crystalButtons">
-            <img src="assets/images/blue_gem.jpg" class=crystalImage id="buttonBlue" alt="Blue Crystal">
-            <img src="assets/images/red_gem.jpg" class=crystalImage id="buttonRed" alt="Red Crystal">
-            <img src="assets/images/yellow_gem.JPG" class=crystalImage id="buttonYellow" alt="Yellow Crystal">
-            <img src="assets/images/green_gem.jpg" class=crystalImage id="buttonGreen" alt="Green Crystal">
+    </div>
+    <!-- Crystal boxes -->
+    <div class="crystalButtons">
+        <img src="assets/images/blue_gem.jpg" class=crystalImage id="buttonBlue" alt="Blue Crystal">
+        <img src="assets/images/red_gem.jpg" class=crystalImage id="buttonRed" alt="Red Crystal">
+        <img src="assets/images/yellow_gem.JPG" class=crystalImage id="buttonYellow" alt="Yellow Crystal">
+        <img src="assets/images/green_gem.jpg" class=crystalImage id="buttonGreen" alt="Green Crystal">
+    </div>
+    <!-- total crystal value. -->
+    <div class="scoreBox">
+        <div class="totalLit">
+            <h2>Total Score:</h2>
         </div>
-        <!-- total crystal value. -->
-        <div class="scoreBox">
-            <div class="totalLit">
-                <h2>Total Score:</h2>
-            </div>
-            <div class="tallyBox">
-                <p><span id="tallyNum"></span></p>
-            </div>
+        <div class="tallyBox">
+            <p><span id="tallyNum"></span></p>
+        </div>
+    </div>
 
-            <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-            <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
